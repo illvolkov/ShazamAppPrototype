@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		04875F6628CA57240066E254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6528CA57240066E254 /* AppDelegate.swift */; };
-		04875F6828CA57240066E254 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6728CA57240066E254 /* SceneDelegate.swift */; };
-		04875F6A28CA57240066E254 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6928CA57240066E254 /* ViewController.swift */; };
+		04875F6A28CA57240066E254 /* ShazamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6928CA57240066E254 /* ShazamController.swift */; };
 		04875F6D28CA57240066E254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04875F6B28CA57240066E254 /* Main.storyboard */; };
 		04875F6F28CA57260066E254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04875F6E28CA57260066E254 /* Assets.xcassets */; };
 		04875F7228CA57260066E254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04875F7028CA57260066E254 /* LaunchScreen.storyboard */; };
+		04875F8228CA67260066E254 /* ShazamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F8128CA67260066E254 /* ShazamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04875F6228CA57240066E254 /* ShazamAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShazamAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04875F6528CA57240066E254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04875F6728CA57240066E254 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04875F6928CA57240066E254 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04875F6928CA57240066E254 /* ShazamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamController.swift; sourceTree = "<group>"; };
 		04875F6C28CA57240066E254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04875F6E28CA57260066E254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04875F7128CA57260066E254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04875F7328CA57260066E254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04875F8128CA67260066E254 /* ShazamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,63 @@
 		04875F6428CA57240066E254 /* ShazamAppPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				04875F7B28CA5A1E0066E254 /* Sources */,
+				04875F7E28CA5A3E0066E254 /* Resources */,
+			);
+			path = ShazamAppPrototype;
+			sourceTree = "<group>";
+		};
+		04875F7B28CA5A1E0066E254 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04875F7C28CA5A240066E254 /* App */,
+				04875F7D28CA5A300066E254 /* ShazamModule */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04875F7C28CA5A240066E254 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				04875F6528CA57240066E254 /* AppDelegate.swift */,
-				04875F6728CA57240066E254 /* SceneDelegate.swift */,
-				04875F6928CA57240066E254 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04875F7D28CA5A300066E254 /* ShazamModule */ = {
+			isa = PBXGroup;
+			children = (
+				04875F7F28CA67050066E254 /* Controller */,
+				04875F8028CA670B0066E254 /* View */,
+			);
+			path = ShazamModule;
+			sourceTree = "<group>";
+		};
+		04875F7E28CA5A3E0066E254 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				04875F6B28CA57240066E254 /* Main.storyboard */,
 				04875F6E28CA57260066E254 /* Assets.xcassets */,
 				04875F7028CA57260066E254 /* LaunchScreen.storyboard */,
 				04875F7328CA57260066E254 /* Info.plist */,
 			);
-			path = ShazamAppPrototype;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04875F7F28CA67050066E254 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04875F6928CA57240066E254 /* ShazamController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04875F8028CA670B0066E254 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04875F8128CA67260066E254 /* ShazamView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +186,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04875F6A28CA57240066E254 /* ViewController.swift in Sources */,
+				04875F6A28CA57240066E254 /* ShazamController.swift in Sources */,
+				04875F8228CA67260066E254 /* ShazamView.swift in Sources */,
 				04875F6628CA57240066E254 /* AppDelegate.swift in Sources */,
-				04875F6828CA57240066E254 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShazamAppPrototype/Info.plist;
+				INFOPLIST_FILE = ShazamAppPrototype/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShazamAppPrototype/Info.plist;
+				INFOPLIST_FILE = ShazamAppPrototype/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
