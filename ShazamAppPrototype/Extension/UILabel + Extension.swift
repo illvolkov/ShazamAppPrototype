@@ -8,13 +8,13 @@
 import UIKit
 
 extension UILabel {
-    func setMicImage(with text: String, viewWidth: CGFloat) {
+    func setMicImage(with text: String, imageSize withViewWidth: CGFloat) {
         let attachment = NSTextAttachment()
         
         let imageConfiguration = UIImage.SymbolConfiguration(weight: .heavy)
         let image = UIImage(systemName: "mic.fill")?.withTintColor(.white).withConfiguration(imageConfiguration)
         attachment.image = image
-        attachment.bounds = CGRect(x: 0, y: -3, width: viewWidth * 0.055, height: viewWidth * 0.055)
+        attachment.bounds = CGRect(x: 0, y: -3, width: withViewWidth * 0.06, height: withViewWidth * 0.06)
         
         let attachmentStr = NSAttributedString(attachment: attachment)
         

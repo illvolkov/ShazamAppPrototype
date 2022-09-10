@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0483A06228CD272A007284B1 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A06128CD272A007284B1 /* UILabel + Extension.swift */; };
 		04875F6628CA57240066E254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6528CA57240066E254 /* AppDelegate.swift */; };
 		04875F6A28CA57240066E254 /* ShazamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6928CA57240066E254 /* ShazamController.swift */; };
 		04875F6D28CA57240066E254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04875F6B28CA57240066E254 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0483A06128CD272A007284B1 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		04875F6228CA57240066E254 /* ShazamAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShazamAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04875F6528CA57240066E254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04875F6928CA57240066E254 /* ShazamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0483A06028CD2715007284B1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0483A06128CD272A007284B1 /* UILabel + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		04875F5928CA57240066E254 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		04875F6428CA57240066E254 /* ShazamAppPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				0483A06028CD2715007284B1 /* Extension */,
 				04875F7B28CA5A1E0066E254 /* Sources */,
 				04875F7E28CA5A3E0066E254 /* Resources */,
 			);
@@ -188,6 +199,7 @@
 			files = (
 				04875F6A28CA57240066E254 /* ShazamController.swift in Sources */,
 				04875F8228CA67260066E254 /* ShazamView.swift in Sources */,
+				0483A06228CD272A007284B1 /* UILabel + Extension.swift in Sources */,
 				04875F6628CA57240066E254 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,8 +353,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -369,8 +382,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
