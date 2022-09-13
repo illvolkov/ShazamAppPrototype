@@ -424,9 +424,6 @@
                             <outlet property="shazamButton" destination="3Z9-pl-DrI" id="Nvc-Qw-FUY"/>
                         </connections>
                     </view>
-                    <connections>
-                        <segue destination="J3h-q8-EhB" kind="presentation" identifier="PresentMyShazam" modalPresentationStyle="overCurrentContext" id="UQP-he-xsG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

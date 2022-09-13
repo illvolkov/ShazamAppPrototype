@@ -27,7 +27,6 @@ class ShazamController: UIViewController {
 
         shazamView?.expandShazamButton()
         shazamView?.startTimer(with: self, selector: #selector(increaseTimer))
-        performSegue(withIdentifier: "PresentMyShazam", sender: nil)
     }
     
     //MARK: - Actions
