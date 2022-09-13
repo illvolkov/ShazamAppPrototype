@@ -220,7 +220,6 @@
 				0CA36AF32F99B3986D74C2B3 /* Pods-ShazamAppPrototype.debug.xcconfig */,
 				AA4EF94A038E157D66D7D17F /* Pods-ShazamAppPrototype.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

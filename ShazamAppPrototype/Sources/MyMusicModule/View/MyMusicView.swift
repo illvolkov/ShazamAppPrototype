@@ -19,10 +19,6 @@ class MyMusicView: UIView {
     
     //MARK: - Settings
     
-    func setupNavigationBar(with navigationController: UINavigationController?) {
-        navigationController?.navigationBar.prefersLargeTitles = true
-    }
-    
     func setupSubViews() {
         collectionView.dataSource = self
         collectionView.delegate = self
@@ -127,7 +123,7 @@ extension MyMusicView: UICollectionViewDelegateFlowLayout {
         
         switch section.type {
         case .list:
-            return CGSize(width: 0, height: 0)
+            return CGSize(width: self.frame.width * 0.9, height: self.frame.width * 0.14)
         case .verticalCard:
             return CGSize(width: self.frame.width * 0.9, height: self.frame.width * 0.12)
         case .horizontalCard:
