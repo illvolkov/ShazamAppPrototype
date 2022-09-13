@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426B77728CFB7F900943DA4 /* SectionReusableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426B77628CFB7F900943DA4 /* SectionReusableHeader.swift */; };
+		0426B77A28CFCFA400943DA4 /* SectionReusableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426B77928CFCFA400943DA4 /* SectionReusableFooter.swift */; };
+		0482DC8828CF3E6B004D4DE1 /* Shazams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0482DC8728CF3E6B004D4DE1 /* Shazams.swift */; };
 		0483A06228CD272A007284B1 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A06128CD272A007284B1 /* UILabel + Extension.swift */; };
+		0483A06728CD3D5F007284B1 /* MyMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A06628CD3D5F007284B1 /* MyMusicController.swift */; };
+		0483A06C28CD3DE2007284B1 /* MyMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A06B28CD3DE2007284B1 /* MyMusicView.swift */; };
+		0483A06E28CE2764007284B1 /* RowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A06D28CE2764007284B1 /* RowCollectionViewCell.swift */; };
+		0483A07028CE2792007284B1 /* LatestShazamCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A06F28CE2792007284B1 /* LatestShazamCollectionViewCell.swift */; };
+		0483A07228CE36A7007284B1 /* Shazam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A07128CE36A7007284B1 /* Shazam.swift */; };
+		0483A07428CE3701007284B1 /* ShazamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A07328CE3701007284B1 /* ShazamSection.swift */; };
+		0483A07628CE3720007284B1 /* SectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A07528CE3720007284B1 /* SectionType.swift */; };
+		0483A07828CE3B20007284B1 /* PlaylistForYouCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483A07728CE3B20007284B1 /* PlaylistForYouCollectionViewCell.swift */; };
 		04875F6628CA57240066E254 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6528CA57240066E254 /* AppDelegate.swift */; };
 		04875F6A28CA57240066E254 /* ShazamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04875F6928CA57240066E254 /* ShazamController.swift */; };
 		04875F6D28CA57240066E254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04875F6B28CA57240066E254 /* Main.storyboard */; };
@@ -17,7 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0426B77628CFB7F900943DA4 /* SectionReusableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionReusableHeader.swift; sourceTree = "<group>"; };
+		0426B77928CFCFA400943DA4 /* SectionReusableFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionReusableFooter.swift; sourceTree = "<group>"; };
+		0482DC8728CF3E6B004D4DE1 /* Shazams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shazams.swift; sourceTree = "<group>"; };
 		0483A06128CD272A007284B1 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		0483A06628CD3D5F007284B1 /* MyMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicController.swift; sourceTree = "<group>"; };
+		0483A06B28CD3DE2007284B1 /* MyMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicView.swift; sourceTree = "<group>"; };
+		0483A06D28CE2764007284B1 /* RowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCollectionViewCell.swift; sourceTree = "<group>"; };
+		0483A06F28CE2792007284B1 /* LatestShazamCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestShazamCollectionViewCell.swift; sourceTree = "<group>"; };
+		0483A07128CE36A7007284B1 /* Shazam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shazam.swift; sourceTree = "<group>"; };
+		0483A07328CE3701007284B1 /* ShazamSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamSection.swift; sourceTree = "<group>"; };
+		0483A07528CE3720007284B1 /* SectionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionType.swift; sourceTree = "<group>"; };
+		0483A07728CE3B20007284B1 /* PlaylistForYouCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistForYouCollectionViewCell.swift; sourceTree = "<group>"; };
 		04875F6228CA57240066E254 /* ShazamAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShazamAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04875F6528CA57240066E254 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04875F6928CA57240066E254 /* ShazamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamController.swift; sourceTree = "<group>"; };
@@ -39,12 +61,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0426B77828CFCF4800943DA4 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0483A06D28CE2764007284B1 /* RowCollectionViewCell.swift */,
+				0483A06F28CE2792007284B1 /* LatestShazamCollectionViewCell.swift */,
+				0483A07728CE3B20007284B1 /* PlaylistForYouCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		0426B77B28D08ADC00943DA4 /* CollectionReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				0426B77628CFB7F900943DA4 /* SectionReusableHeader.swift */,
+				0426B77928CFCFA400943DA4 /* SectionReusableFooter.swift */,
+			);
+			path = CollectionReusableView;
+			sourceTree = "<group>";
+		};
 		0483A06028CD2715007284B1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				0483A06128CD272A007284B1 /* UILabel + Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0483A06528CD3D4D007284B1 /* MyMusicModule */ = {
+			isa = PBXGroup;
+			children = (
+				0483A06A28CD3DD4007284B1 /* Controller */,
+				0483A06828CD3DC9007284B1 /* View */,
+				0483A06928CD3DCF007284B1 /* Model */,
+			);
+			path = MyMusicModule;
+			sourceTree = "<group>";
+		};
+		0483A06828CD3DC9007284B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0483A06B28CD3DE2007284B1 /* MyMusicView.swift */,
+				0426B77828CFCF4800943DA4 /* CollectionViewCells */,
+				0426B77B28D08ADC00943DA4 /* CollectionReusableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0483A06928CD3DCF007284B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0483A07128CE36A7007284B1 /* Shazam.swift */,
+				0483A07328CE3701007284B1 /* ShazamSection.swift */,
+				0483A07528CE3720007284B1 /* SectionType.swift */,
+				0482DC8728CF3E6B004D4DE1 /* Shazams.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0483A06A28CD3DD4007284B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0483A06628CD3D5F007284B1 /* MyMusicController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		04875F5928CA57240066E254 = {
@@ -77,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				04875F7C28CA5A240066E254 /* App */,
+				0483A06528CD3D4D007284B1 /* MyMusicModule */,
 				04875F7D28CA5A300066E254 /* ShazamModule */,
 			);
 			path = Sources;
@@ -197,10 +278,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0483A06E28CE2764007284B1 /* RowCollectionViewCell.swift in Sources */,
+				0426B77728CFB7F900943DA4 /* SectionReusableHeader.swift in Sources */,
+				0426B77A28CFCFA400943DA4 /* SectionReusableFooter.swift in Sources */,
 				04875F6A28CA57240066E254 /* ShazamController.swift in Sources */,
+				0483A07228CE36A7007284B1 /* Shazam.swift in Sources */,
+				0483A07628CE3720007284B1 /* SectionType.swift in Sources */,
 				04875F8228CA67260066E254 /* ShazamView.swift in Sources */,
 				0483A06228CD272A007284B1 /* UILabel + Extension.swift in Sources */,
+				0483A06728CD3D5F007284B1 /* MyMusicController.swift in Sources */,
+				0483A06C28CD3DE2007284B1 /* MyMusicView.swift in Sources */,
+				0483A07428CE3701007284B1 /* ShazamSection.swift in Sources */,
 				04875F6628CA57240066E254 /* AppDelegate.swift in Sources */,
+				0482DC8828CF3E6B004D4DE1 /* Shazams.swift in Sources */,
+				0483A07828CE3B20007284B1 /* PlaylistForYouCollectionViewCell.swift in Sources */,
+				0483A07028CE2792007284B1 /* LatestShazamCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,8 +23,11 @@ class ShazamController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
         shazamView?.expandShazamButton()
         shazamView?.startTimer(with: self, selector: #selector(increaseTimer))
+        performSegue(withIdentifier: "PresentMyShazam", sender: nil)
     }
     
     //MARK: - Actions
