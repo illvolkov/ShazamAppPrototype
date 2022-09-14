@@ -36,7 +36,12 @@ class ShazamView: UIView {
         shazamButton.layer.cornerRadius = self.frame.width * 0.24
         shazamButton.layer.masksToBounds = true
         
-        promtpLabel.setMicImage(with: "Шазамнуть", imageSize: self.frame.width)
+        promtpLabel.setLeftImage(withText: "Шазамнуть",
+                                 imageName: "mic.fill",
+                                 viewWidth: self.frame.width,
+                                 imageSize: 0.06,
+                                 positionY: -3,
+                                 isRetreat: true)
         promtpLabel.font = .systemFont(ofSize: self.frame.width * 0.06, weight: .heavy)
     }
     
@@ -66,7 +71,12 @@ class ShazamView: UIView {
     
     private func transitionPromptLabelText(with text: String) {
         UIView.transition(with: promtpLabel, duration: 0.5, options: .transitionCrossDissolve) {
-            self.promtpLabel.setMicImage(with: text, imageSize: self.frame.width)
+            self.promtpLabel.setLeftImage(withText: text,
+                                          imageName: "mic.fill",
+                                          viewWidth: self.frame.width,
+                                          imageSize: 0.06,
+                                          positionY: -3,
+                                          isRetreat: true)
         }
     }
 }

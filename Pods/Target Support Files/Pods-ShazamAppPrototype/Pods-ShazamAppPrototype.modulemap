@@ -1,0 +1,6 @@
+framework module Pods_ShazamAppPrototype {
+  umbrella header "Pods-ShazamAppPrototype-umbrella.h"
+
+  export *
+  module * { export * }
+}

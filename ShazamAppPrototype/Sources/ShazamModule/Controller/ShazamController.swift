@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import Pulley
 
 class ShazamController: UIViewController {
+    
+    //MARK: - Private properties
     
     private var shazamView: ShazamView? {
         guard isViewLoaded else { return nil }
@@ -23,8 +26,18 @@ class ShazamController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
         shazamView?.expandShazamButton()
         shazamView?.startTimer(with: self, selector: #selector(increaseTimer))
+        setupPulleyViewController()
+    }
+    
+    //MARK: - Settings
+    
+    private func setupPulleyViewController() {
+        self.pulleyViewController?.displayMode = .automatic
+        self.pulleyViewController?.drawerTopInset = view.frame.width * -0.12
     }
     
     //MARK: - Actions
