@@ -71,7 +71,7 @@ class ShazamView: UIView {
     
     private func transitionPromptLabelText(with text: String) {
         UIView.transition(with: promtpLabel, duration: 0.5, options: .transitionCrossDissolve) {
-            self.promtpLabel.setLeftImage(withText: "Шазамнуть",
+            self.promtpLabel.setLeftImage(withText: text,
                                           imageName: "mic.fill",
                                           viewWidth: self.frame.width,
                                           imageSize: 0.06,
