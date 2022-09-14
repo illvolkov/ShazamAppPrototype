@@ -21,8 +21,13 @@ class SectionReusableHeader: UICollectionReusableView {
     
     //MARK: - Settings
     
-    private func setupSubViews() {
-        sectionLabel.font = .systemFont(ofSize: self.frame.width * 0.05, weight: .semibold)
+    private func setupSubViews(with section: ShazamSection) {
+        
+        if section.type == .list {
+            sectionLabel.font = .systemFont(ofSize: self.frame.width * 0.08, weight: .semibold)
+        } else {
+            sectionLabel.font = .systemFont(ofSize: self.frame.width * 0.05, weight: .semibold)
+        }
         subSectionLabel.font = .systemFont(ofSize: self.frame.width * 0.035, weight: .light)
     }
     
@@ -30,7 +35,7 @@ class SectionReusableHeader: UICollectionReusableView {
         
         switch model.type {
         case .list:
-            sectionLabel.text = nil
+            sectionLabel.text = "Моя музыка"
             subSectionLabel.text = nil
             sectionImage.image = nil
         case .horizontalCard:
@@ -43,6 +48,6 @@ class SectionReusableHeader: UICollectionReusableView {
             sectionImage.image = nil
         }
         
-        setupSubViews()
+        setupSubViews(with: model)
     }
 }
